@@ -1,0 +1,21 @@
+header {
+    grid-area: header;
+    background-color: grey;
+    color: white;
+    padding: 3px;
+}
+
+.wrapper{ 
+    font-size: 18px;
+}
+
+main {
+    background-color: #53ABD6;
+    padding: 3px;
+}
+
+h2 {
+    padding: 5px;
+    font-size: 32px;
+    text-align: center;
+}
