@@ -1,18 +1,13 @@
 header {
-    grid-area: header;
     background-color:black;
-    color: white;
-    display: inline-block;
-}
-header, .nav {
-    display: inline-block;
-    background-color: black;
     color: white;
     padding: 5px;
     margin: 5px;
-    width: 50%;
+    position: relative;
+    overflow: hidden;
 }
-.wrapper{ 
+
+.wrapper { 
     font-size: 18px;
     display: block;
 }
@@ -21,7 +16,6 @@ main {
     background-color: #53ABD6;
     padding: 10px;
     margin: 5px;
-    border-radius: 10px;
 }
 
 h2 {
@@ -30,16 +24,32 @@ h2 {
     text-align: center;
 }
 
-.nav {
-    display: inline-block;
-
+.nav {  
+    background-color: black;
+    overflow: hidden;
+    float: center;
+    text-align: center;
 }
+
 .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+
 }
   
-.nav li {
-    display: inline;
+.nav li { 
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color: hotpink;
 }
