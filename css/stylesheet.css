@@ -1,10 +1,52 @@
 /* Sashin Amichand CSS 2021 For Junior/Sky Breakers Basketball Website*/
 
+/*---------------------------*/
+
 /* Wrapper that contains the base code of how my website is going to be styled */
 .wrapper { 
     font-size: 18px;
     display: block;
 }
+
+/* Nav bar and logo styling*/
+
+.logo {
+    border-radius: 40%;
+}
+
+nav, nav a {  
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+/* Styling of the actual text in the navigation bar*/
+nav li { 
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    border: solid white 1px;
+    width: 15%;
+}
+
+/* When user hovers over link */
+nav a:hover {
+    color: #53ABD6;
+    text-decoration: underline;
+}
+
+/*---------------------------*/
 
 /* Styling of the body/header*/
 header {
@@ -12,6 +54,7 @@ header {
     padding: 5px;
 }
 
+/* Styling the main 'box' information */
 main {
     background-color: #53ABD6;
     padding: 10px;
@@ -33,44 +76,5 @@ img {
     padding: 5px;
 }
 
-/* Nav bar and logo styling*/
-
-.logo {
-    border-radius: 40%;
-}
-
-nav {  
-    background-color: black;
-    overflow: hidden;
-    text-align: center;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
-}
-  
-/* Styling of the actual text in the navigation bar*/
-nav li { 
-    display: inline-block;
-    font-size: 20px;
-    padding: 10px;
-    border: solid white 1px;
-    width: 15%;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-}
-
-/* When user hovers over link */
-nav a:hover {
-    color: #53ABD6;
-    text-decoration: underline;
-}
+/*---------------------------*/
+/* End Of CSS*/
