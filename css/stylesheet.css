@@ -1,8 +1,12 @@
+/* Sashin Amichand CSS 2021 For Junior/Sky Breakers Basketball Website*/
+
+/* Wrapper that contains the base code of how my website is going to be styled */
 .wrapper { 
     font-size: 18px;
     display: block;
 }
 
+/* Styling of the body/header*/
 header {
     color: white;
     padding: 5px;
@@ -22,10 +26,14 @@ h2 {
     margin: 5px;
 }
 
+/* Seperates images by a slight amount and also gives it rounded corners*/
+
 img {
     border-radius: 5%;
     padding: 5px;
 }
+
+/* Nav bar and logo styling*/
 
 .logo {
     border-radius: 40%;
@@ -47,6 +55,7 @@ nav ul {
 
 }
   
+/* Styling of the actual text in the navigation bar*/
 nav li { 
     display: inline-block;
     font-size: 20px;
@@ -60,6 +69,7 @@ nav a {
     color: white;
 }
 
+/* When user hovers over link */
 nav a:hover {
     color: #53ABD6;
     text-decoration: underline;
