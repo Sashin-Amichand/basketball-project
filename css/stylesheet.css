@@ -2,6 +2,13 @@
 
 /*---------------------------*/
 
+
+/* Background image*/
+body {
+    background-image: url("../images/sky_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 /* Wrapper that contains the base code of how my website is going to be styled */
 .wrapper { 
     font-size: 18px;
@@ -38,6 +45,7 @@ nav li {
     padding: 10px;
     border: solid white 1px;
     width: 15%;
+    font-weight: bolder;
 }
 
 /* When user hovers over link */
