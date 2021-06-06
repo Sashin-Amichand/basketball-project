@@ -17,6 +17,7 @@
     background-attachment: fixed;
     padding: 10px;
     text-align: center;
+    font-family: 'Source Sans Pro';
 }
 
 /*---------------------------*/
@@ -67,7 +68,6 @@ main {
     padding: 10px;
     border-radius: 10px;
     overflow: auto;
-    font-family: 'Source Sans Pro';
     font-size: 18px;
 }
 
@@ -75,6 +75,10 @@ h2 {
     font-size: 50px;
     margin: 5px;
     font-family: 'Noto Sans JP';
+}
+
+footer {
+    text-align: left;
 }
 
 /* Seperates images by a slight amount and also gives it rounded corners*/

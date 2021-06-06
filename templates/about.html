@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <h2> Home </h2> <!-- Title of what the page is called -->
+    <h3> Junior Breakers: </h3> <!-- Short Description of what the text below is talking about -->
+
+    <img class="rounded" src="{{ url_for('static', filename='images/juniorbreaker_people2.jpg')}}" alt="Junior Breakers People One" width="550" height="400"/> <!-- Images used -->
+    <img class="rounded" src="{{ url_for('static', filename='images/juniorbreaker_people.jpg')}}" alt="Junior Breakers People Two" width="550" height="400"/>
+
+    <p> The Junior Breakers is a local basketball club in New Zealand. It was founded for the purpose of finding new talents for their main team, <br>
+        the Sky Breakers. It is intended for kids from 5-12 years old to join. They take kids of all age and ethnicities.
+    </p>
+
+    <h3>Sky Sport Breakers:</h3>
+
+    <img class="rounded" src="{{ url_for('static', filename='images/skybreakers_people1.jpg')}}" alt="Sky Sport Breakers People 1" width="550" height="325"/> <!-- Images used -->
+    <img class="rounded" src="{{ url_for('static', filename='images/skybreakers_people2.jpg')}}" alt="Sky Sport Breakers People 2" width="550" height="325"/>
+
+    <p>
+        The Sky Breaker is the premier New Zealand basketball team, which particpates in basketball locally and in Australia. <br> 
+        They recruit people across New Zealand and directly from their fledgeling team, the Junior Breakers
+    </p>
+{% endblock %}
