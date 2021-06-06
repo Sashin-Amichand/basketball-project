@@ -1,0 +1,87 @@
+/* Sashin Amichand CSS 2021 For Junior/Sky Breakers Basketball Website*/
+
+/*---------------------------*/
+
+/* Sets the font*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Source+Sans+Pro&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Wrapper that contains the base code of how my website is going to be styled */
+.wrapper { 
+    background-image: url("../images/sky_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px;
+    text-align: center;
+}
+
+/*---------------------------*/
+
+/* Styling of the header*/
+header {
+    color: white;
+    padding: 10px;
+}
+
+/* Sets how the nav and the list looks */
+nav, nav a, nav ul {  
+    background-color: black;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+  
+/* Styling of the actual text in the navigation bar*/
+nav li { 
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    width: 180px;
+    border: solid white 1px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP';
+}
+
+/* When user hovers over link */
+nav a:hover {
+    color: #53ABD6;
+    text-decoration: underline;
+}
+
+/* Makes the logo a circle-ish */
+.logo {
+    border-radius: 40%;
+}
+
+/*---------------------------*/
+
+/* Styling everything under main */
+main {
+    background-color: #53ABD6;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: auto;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 5px;
+    font-family: 'Noto Sans JP';
+}
+
+/* Seperates images by a slight amount and also gives it rounded corners*/
+.rounded {
+    border-radius: 5%;
+    padding: 5px;
+}
+/*---------------------------*/
+
+/* End Of CSS*/
