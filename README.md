@@ -6,3 +6,5 @@ Steps to creating virtual env in powershell:
 2. basketballproject/Scripts/activate
 3. $env:FLASK_APP="indexFlask"
 4. flask run (to start the website, ctrl + c to stop it and then rerun it in order to view any changes.)
+
+OR if you simply wish to view it, click this link:
