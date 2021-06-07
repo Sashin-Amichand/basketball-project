@@ -4,10 +4,10 @@ HTML files are in templates, CSS and Image folders are in Static. OR if you simp
 -----------------------------------------------------------------------------------------------------------
 To edit/configure make sure to run the requirments.txt in a virtual env and then install it, or else it will install on your pc. 
 
-Steps to creating virtual env in powershell:
+Steps to creating a virtual env in powershell:
 
 0. Install python
-1. Inside the basketball-project open a powershell prompt
+1. Inside the basketball-project folder you downloaded from this repo, open a powershell prompt
 2. python -m venv basketballproject
 3. basketballproject/Scripts/activate
 4. $env:FLASK_APP="indexFlask"
