@@ -1,6 +1,6 @@
 # basketball-project
 This website is created using Flask, a Python Web app framework, so if you wish to configure/edit the website you must run the flask.py file via a flask cmd.
-HTML files are in templates, CSS and Image folders are in Static. OR if you simply wish to view it, click this link:
+HTML files are in templates, CSS and Image folders are in Static. OR if you simply wish to view it, click this link: https://sa-basketball.herokuapp.com/
 -----------------------------------------------------------------------------------------------------------
 To edit/configure make sure to run the requirments.txt in a virtual env and then install it, or else it will install on your pc. 
 
