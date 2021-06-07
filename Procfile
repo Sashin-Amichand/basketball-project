@@ -1,1 +1,1 @@
-web: gunicorn app:indexFlask
+web: gunicorn indexFlask:app
