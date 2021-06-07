@@ -1,3 +1,5 @@
+# MAKE SURE TO READ README.MD
+
 from flask import Flask, render_template
 
 # Create a Flask Instance
