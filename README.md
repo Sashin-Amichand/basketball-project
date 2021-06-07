@@ -11,8 +11,7 @@ Steps to creating a virtual env in powershell:
 2. python -m venv basketballproject
 4. basketballproject/Scripts/activate
 5. pip install -r requirements.txt
-(Optional set development mode: $env:FLASK_ENV="development")
-7. $env:FLASK_APP="indexFlask"
+7. $env:FLASK_APP="indexFlask" (Optional set development mode: $env:FLASK_ENV="development")
 8. flask run (to start the website, ctrl + c to stop it and then rerun it in order to see any changes.)
 9. When done in the virtual env just type deactive and to reactivate follow steps 3-5.
 -----------------------------------------------------------------------------------------------------------
