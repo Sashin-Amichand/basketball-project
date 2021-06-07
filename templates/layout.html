@@ -8,13 +8,15 @@
 
     <!-- link to css -->
    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+    <!-- Favicon (icon for the website)-->
+   <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 
 <body>
     <div class="wrapper">  <!-- Wrapper that all my code is under-->
         <header>
             <nav> <!-- Navigation Bar -->
-                <a href="/"> <img class="logo" src="{{ url_for('static', filename='images/basketball_logo.webp')}}" 
+                <a href="/"> <img class="logo" src="{{ url_for('static', filename='images/basketball_logo.ico')}}" 
                  alt="Basketball in hoop logo" width="145" height="110"/> </a>
                 <ul>
                     <li> <a href="/"> Home </a>  </li>
