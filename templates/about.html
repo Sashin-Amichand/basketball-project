@@ -1,23 +1,29 @@
 {% extends "layout.html" %}
 
 {% block body %}
-    <h2> Home </h2> <!-- Title of what the page is called -->
-    <h3> Junior Breakers: </h3> <!-- Short Description of what the text below is talking about -->
+    <h2> About: </h2> <!-- Title of what the page is called -->
 
-    <img class="rounded" src="{{ url_for('static', filename='images/juniorbreaker_people2.jpg')}}" alt="Junior Breakers People One" width="550" height="400"/> <!-- Images used -->
-    <img class="rounded" src="{{ url_for('static', filename='images/juniorbreaker_people.jpg')}}" alt="Junior Breakers People Two" width="550" height="400"/>
+    <P> I created this website because I felt that the Junior Breakers and Sky Breakers should be more connected. <br>
+        As such I have created a website which allows you to see both the Junior and Sky Breakers community work.
+    </p>
+    <img class="rounded" src="{{ url_for('static', filename='images/contact-us.png')}}" alt="Junior Breakers People One" width="500" height="300"/> <!-- Images used -->
 
-    <p> The Junior Breakers is a local basketball club in New Zealand. It was founded for the purpose of finding new talents for their main team, <br>
-        the Sky Breakers. It is intended for kids from 5-12 years old to join. They take kids of all age and ethnicities.
+    <p> If you would like to contact us about something email this account:
     </p>
 
-    <h3>Sky Sport Breakers:</h3>
+    <h3> info@juniorbreakers.co.nz   </h3>
 
-    <img class="rounded" src="{{ url_for('static', filename='images/skybreakers_people1.jpg')}}" alt="Sky Sport Breakers People 1" width="550" height="325"/> <!-- Images used -->
-    <img class="rounded" src="{{ url_for('static', filename='images/skybreakers_people2.jpg')}}" alt="Sky Sport Breakers People 2" width="550" height="325"/>
+    <p> OR phone this number: </p>
+    
+    <h3> (09) 970 5260 </h3>
 
-    <p>
-        The Sky Breaker is the premier New Zealand basketball team, which particpates in basketball locally and in Australia. <br> 
-        They recruit people across New Zealand and directly from their fledgeling team, the Junior Breakers
-    </p>
+    <p> And if you liked to vist us, we are located at:</p>
+
+    <h3> 7 Atlas Pl
+
+        Mairangi Bay, 
+        
+        North Shore City 0632
+        
+        New Zealand </h3>
 {% endblock %}
