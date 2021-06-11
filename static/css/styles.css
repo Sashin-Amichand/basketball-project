@@ -14,7 +14,8 @@
 .wrapper { 
     background-image: url("../images/sky_background.jpg");
     background-repeat: no-repeat;
-    background-attachment: sticky;
+    background-size: cover;
+    background-attachment: scroll;
     padding: 10px;
     text-align: center;
     font-family: 'Source Sans Pro';
